@@ -1,0 +1,103 @@
+body{
+    background-color: lightgray;
+}
+
+.container{
+    width: 450px;
+    height: 520px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.3));
+    border-radius: 15px;
+}
+
+.gradient{
+    background-image:linear-gradient(to right, rgb(86, 84, 209), rgb(197, 80, 195) );
+    
+}
+
+.headdiv{
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.transparent{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top:25px ;
+}
+
+
+
+::placeholder{
+    color: lightgray;
+    font-size: 20px;
+}
+
+.email{
+    border: 2px solid lightgrey;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 280px;
+    height: 40px;
+}
+
+.password{
+    border: 2px solid lightgrey;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 75px;
+    width: 280px;
+    height: 40px;
+}
+
+
+.logbutton{
+    border: none;
+    width: 280px;
+    height: 50px;
+    margin-top: 75px;
+    margin-left: 80px;
+    font-size: 25px;
+    color: white;
+    border-radius: 50px;
+    position:absolute;
+}
+
+.remMe{
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.chkbxLabel{
+    margin-left: 5px;
+    font-size: 15px;
+    font-size: 20px;
+}
+
+.forgotPass{
+    position: absolute;
+    margin-left:260px ;
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.newUser{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+}

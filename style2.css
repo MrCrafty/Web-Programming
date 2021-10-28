@@ -1,0 +1,61 @@
+.table{
+    background-color: rgb(230, 240, 94);
+    width: 150px;
+    height: 200px;
+    box-shadow: 5px 5px 9px rgba(100, 100, 100, 0.308);
+    border-radius: 7px;
+    border: none;
+    
+    
+}
+
+.head{
+    text-align: center;
+    background-image: linear-gradient(rgb(249, 253, 196), rgba(230, 240, 94, 0.24)) ;
+    font-size: 20px;
+}
+
+.tbpos{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    transform: rotate(-25deg);
+}
+
+.tbpos1{
+    position: absolute;
+    top: 46px;
+    left: 341px;
+    transform: rotate(32deg);
+}
+.tbpos2{
+    position: absolute;
+    top: 383px;
+    left: 458px;
+    transform: rotate(-46deg);
+}
+.tbpos3{
+    position: absolute;
+    top: 344px;
+    left: 335px;
+    transform: rotate(-30deg);
+}
+.tbpos4{
+    position: absolute;
+    top: 110px;
+    left: 456px;
+    transform: rotate(13deg);
+}
+.tbpos5{
+    position: absolute;
+    top: 336px;
+    left: 150px;
+    transform: rotate(-21deg);
+}
+
+.bgimage{
+    background-image: url(image\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
