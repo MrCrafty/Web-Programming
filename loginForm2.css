@@ -1,0 +1,98 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+.profile-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.bg-image{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(bg-image.jpg);
+    filter: blur(7px);
+}
+
+.form{
+    height: 500px;
+    width: 500px;
+    margin-top: -600px;
+    margin-left: 520px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.596));
+}
+
+.email-area{
+    position: absolute;
+    height: 30px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 170px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 3px solid rgb(175, 175, 175);
+}
+
+.email-label{
+    position: absolute;
+    color: white;
+    margin-top: 135px;
+    margin-left: 102px;
+    font-size: 22px;
+}
+
+.form-heading{
+    font-family:Helvetica, sans-serif;
+    position: absolute;
+    color: white;
+    filter: drop-shadow(0 0 15px black);
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+::placeholder{
+    font-size: 18px;
+    color: white;
+    opacity: 0.7;
+}
+
+.pass-area{
+    position: absolute;
+    height: 30px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 270px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 3px solid rgb(175, 175, 175);
+}
+
+.pass-label{
+    position: absolute;
+    color: white;
+    margin-top: 235px;
+    margin-left: 102px;
+    font-size: 22px;
+}
+
+.signbutton{
+    position: absolute;
+    background-color: rgb(255, 66, 28);
+    border: none;
+    color: white;
+    margin-top: 350px;
+    margin-left: 100px;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+}
