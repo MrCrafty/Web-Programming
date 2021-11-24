@@ -1,0 +1,17 @@
+table{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 2px solid black;
+}
+
+.bgColor{
+    background-color: rgba(110, 253, 253, 0.801);
+}
+
+.bgColor2{
+    background-color: rgba(255, 98, 98, 0.822);
+}
